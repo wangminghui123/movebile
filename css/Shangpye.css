@@ -1,0 +1,210 @@
+*{margin: 0;padding: 0;}
+html,body{
+    width: 100%;
+    font-size: 100px;
+    height: 13.34rem;
+    font-family: te;
+    background: #252637;
+}
+@font-face {
+    font-family: te;
+    src: url("../font/font/PingFang Medium.ttf")
+}
+.header{
+    width: 100%;
+    height: 1.28rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    align-items: center;
+}
+.header>div{
+    width: 60%;
+    height: .7rem;
+    border: .01rem solid #333752;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    background: url("../imgs/nvZhuang/xiangji.png")no-repeat  95%;
+    background-size: .3rem;
+}
+.header>img{
+    width: .25rem;
+    height: .4rem;
+
+}
+.header>.nv_r{
+    width: .4rem;
+    height: .45rem;
+
+}
+.header>div>span{
+    color: #EEEEEE;
+    font-size: .22rem;
+    padding-left: .5rem;
+    margin-left: .38rem;
+    background: url("../imgs/nvZhuang/sousuo.png")no-repeat left 0;
+    background-size: .3rem;
+}
+.box1>ul>li>a{
+    text-decoration: none;
+    color: #FDFCFC;
+    font-size: .28rem;
+}
+.box1{
+    width: 100%;
+}
+.box1>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1>ul>li{
+    display: flex;
+    margin: .32rem .32rem;
+    list-style: none;
+}
+.box1_li1>a{
+    background: url("../imgs/nvZhuang/daosanjiao.png")no-repeat center right;
+    background-size: .2rem;
+    padding-right: .3rem;
+}
+.box1_li2>a{
+    background: url("../imgs/nvZhuang/shaixuan.png")no-repeat center right;
+    background-size: .2rem;
+    padding-right: .3rem;
+}
+.box1>ul>li>a:hover{
+    background: -webkit-linear-gradient(45deg,#ea8b8b,#a890fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/**/
+li{list-style: none}
+.box2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.box2_div{
+    width: 50%;
+    height: 4.8rem;
+    margin-left: .3rem;
+}
+.box3_div{
+    width: 50%;
+    height: 6.3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+.box2_ul{
+    display: flex;
+    flex-direction: column;
+}
+.box2_li>div{
+    width: 100%;
+    height: 4.8rem;
+    background: url("../imgs/nvZhuang/zuidixiajuxing.png")no-repeat;
+    background-size: 100% 100%;
+    border-radius: .1rem    ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.box3_li,.box2_li{
+    margin-bottom: .3rem;
+}
+.box2_li>div>img{
+    width: 139%;
+    height: 2.56rem;
+    border-top-left-radius: .1rem    ;
+    border-top-right-radius: .1rem    ;
+}
+.img1{
+    transform: translateX(-.9rem);
+}
+.box3_ul{
+    display: flex;
+    flex-direction: column;
+}
+.box3_li>div{
+    height: 6.3rem;
+    background: url("../imgs/nvZhuang/zuidixiajuxing.png")no-repeat;
+    background-size: 100% 100%;
+    border-radius: .1rem    ;
+    display: flex;
+    flex-direction: column;
+}
+.box3_li>div>div{
+    width: 100%;
+    height: 4.1rem;
+    border-top-left-radius: .1rem ;
+    border-top-right-radius: .1rem ;
+    overflow: hidden;
+}
+.imgs1>img{
+    width: 6.40rem;
+    height: 4.26rem;
+    transform: translateX(-.41rem);
+    border-top-left-radius: .1rem ;
+    border-top-right-radius: .1rem ;
+}
+.imgs2>img{
+    width: 6.40rem;
+    height: 4.2rem;
+    transform: translateX(-.9rem);
+    border-top-left-radius: .1rem ;
+    border-top-right-radius: .1rem ;
+}
+.imgs3>img{
+    width: 6.40rem;
+    height: 4.8rem;
+    transform: translateX(-.41rem);
+    border-top-left-radius: .1rem ;
+    border-top-right-radius: .1rem ;
+}
+.box2_p1,.box2_p2,.box2_p3{
+    color: #EEEEEE;
+}
+.box2_p1{
+    font-size: .28rem;
+    margin: .1rem .07rem;
+}
+.box2_p2{
+
+    display: flex;
+    flex-direction: row;
+    margin: .1rem .07rem;
+}
+.box2_p2>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .2rem;
+    width: .62rem;
+    height: .32rem;
+    background: url("../imgs/nvZhuang/baoyoujuxing.png")no-repeat;
+    background-size:100% 100% ;
+    margin-right:  .19rem;
+}
+.box2_p3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .1rem .07rem;
+    background: url("../imgs/nvZhuang/gengduo.png")no-repeat right .15rem;
+
+}
+.box2_p3>span{
+    font-size: .22rem;
+    margin-right:  .19rem;
+}
+.box2_p3>span:nth-child(1){
+    font-size: .26rem;
+    color: #EA8D8D;
+}

@@ -1,0 +1,265 @@
+body {
+    font-family: te;
+}
+
+
+/*banner  */
+
+.banner_box {
+    width: 100%;
+    margin: .15rem 0;
+}
+
+.swiper-slide>img {
+    width: 100%;
+    border-radius: .1rem;
+}
+
+
+/* 身体 */
+
+.yu_box {
+    padding: 0 .3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.yu_box_p1 {
+    font-size: .34rem;
+    font-family: sc;
+    color: #fff;
+}
+
+.yu_box_p1>span {
+    font: size 0.28rem;
+    color: #999;
+    margin-left: .15rem;
+}
+
+.yu_box_p2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: .2rem;
+}
+
+.yu_box_p2>span {
+    width: .3rem;
+    height: .3rem;
+    padding-right: .15rem;
+    background: url("./../imgs/yueguan1/xingxing.png") no-repeat;
+    background-size: .3rem .3rem;
+}
+
+.yu_box_r {
+    width: .51rem;
+    height: .51rem;
+    position: relative;
+    top: -.5rem;
+}
+
+.yu_box_r>img {
+    width: .51rem;
+    height: .51rem;
+}
+
+.yu_ul1 {
+    padding: .27rem .3rem;
+}
+
+.yu_ul1>ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style: none;
+    font-size: .21rem;
+    color: #666;
+}
+
+.yu_ul1>ul>li>span {
+    padding-left: .18rem;
+}
+
+.yu_ul2 {
+    padding: 0 .3rem;
+    font-size: .21rem;
+    color: #ccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.yu_ul2>p>span {
+    width: .2rem;
+    height: .25rem;
+    display: inline-block;
+    background: url("./../imgs/yueguan1/weizhi.png") no-repeat;
+    background-size: .19rem .24rem;
+    margin-right: .1rem;
+}
+
+.yu_map {
+    padding: 0 .3rem;
+    margin-top: .25rem;
+    height: 3.43rem;
+}
+
+.yu_map>img {
+    width: 100%;
+    height: 100%;
+}
+
+.yu_box_bottom {
+    width: 6.9rem;
+    height: 2.22rem;
+    margin: 0 auto;
+    border-radius: .2rem;
+    background: #333752;
+    margin-top: .15rem
+}
+
+.yu_box_bottom_padding {
+    padding: 0 .3rem;
+}
+
+.yu_box_bottom_h {
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px #666 solid;
+}
+
+.yu_box_bottom_h>p:nth-child(1) {
+    font-size: .28rem;
+    color: #f9f8f8;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+
+.yu_box_bottom_h>p:nth-child(2) {
+    font-size: .21rem;
+    color: #f9f8f8;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+
+.yu_box_bottom_h_right {
+    width: .14rem;
+    height: .26rem;
+    display: inline-block;
+    background: url("./../imgs/yueguan1/fanhui2.png") no-repeat;
+    background-size: .14rem .26rem;
+    margin-left: .15rem;
+    position: relative;
+    top: .05rem;
+}
+
+.yu_box_bottom_bot {
+    margin-top: .22rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: .23rem;
+}
+
+.yu_box_bottom_bot>p {
+    width: 2.43rem;
+}
+
+.yu_box_bottom_bot>p>span:nth-child(1) {
+    color: #999;
+}
+
+.yu_box_bottom_bot>p>span:nth-child(2) {
+    color: #ccc;
+}
+
+
+/* 留言 */
+
+.yu_liuyan_box {
+    width: 6.9rem;
+    height: 4.9rem;
+    margin: 0 auto;
+    border-radius: .2rem;
+    background: #333752;
+    margin-top: .15rem
+}
+
+.yu_liuyan_name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: .3rem 0;
+}
+
+.yu_liuyan_name_img {
+    width: .78rem;
+    height: .78rem;
+}
+
+.yu_liuyan_name_img_box {
+    margin-left: .15rem;
+}
+
+.yu_liuyan_name_right {
+    width: 5.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.yu_liuyan_name_right>p:nth-child(1) {
+    color: #ccc;
+    font-size: .26rem;
+}
+
+.yu_liuyan_name_right>p:nth-child(2) {
+    color: #666;
+    font-size: .17rem;
+}
+
+.yu_liuyan_name_right_p {
+    color: #999;
+    font-size: .17rem;
+}
+
+.yu_liuyan_name_right_p {
+    width: 3.36rem;
+}
+
+.yuguan {
+    width: 3.2rem;
+    height: .87rem;
+    background: url("./../imgs/yueguan1/anniu.png") no-repeat;
+    background-size: 3.2rem .87rem;
+    line-height: .87rem;
+    text-align: center;
+    font-size: .38rem;
+    color: #fff;
+    position: fixed;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 1rem;
+}

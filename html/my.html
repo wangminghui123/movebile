@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的</title>
+    <link rel="stylesheet" href="./../css/exercise.css">
+    <script src="./../js/zepto.min.js"></script>
+    <script src="./../js/rem.js"></script>
+    <link rel="stylesheet" href="./../css/my.css">
+    <style>
+        .T>div{
+            display: block;
+            transform: translateY(-0.4rem);
+        }
+        .T>img{
+            opacity: 0;
+        }
+.T>p{
+    color: rgb(156, 135, 237);
+}
+    </style>
+</head>
+
+<body>
+    <!-- nav -->
+    <section class="men_body">
+        <div class="men_top_box">
+
+            <div class="men_top2">
+                <a href="">
+                    <img src="./../imgs/my/shezhi.png" alt="">
+                </a>
+            </div>
+            <p class="men_top_p">我的</p>
+        </div>
+    </section>
+    <!-- 身体 -->
+    <div class="my_box1">
+        <section class="my_body">
+            <div class="my_top_p">
+                <span>多多嘻嘻</span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="my_ul1">
+                <li>
+                    <span>粉丝</span>
+                    <span>56</span>
+                    <span>|</span>
+                </li>
+                <li>
+                    <span>关注</span>
+                    <span>28</span>
+                    <span>|</span>
+                </li>
+                <li>
+                    <span>动态</span>
+                    <span>200</span>
+                </li>
+            </ul>
+            <ul class="my_ul2">
+                <li>720</li>
+                <li>1860</li>
+                <li>360</li>
+            </ul>
+            <ul class="my_ul3">
+                <li>累计训练（分钟）</li>
+                <li>累计距离（千米）</li>
+                <li>累计打卡（天）</li>
+            </ul>
+        </section>
+        <img class="my_top_img1" src="./../imgs/my/touxiang.png" alt="">
+        <img class="my_top_img2" src="./../imgs/my/dengji.png" alt="">
+    </div>
+
+    <section class="my_box2">
+        <ul class="my_box2_ul1">
+            <li>
+                <img src="./../imgs/my/tubiao1.png" alt="">
+                <p>我的勋章</p>
+            </li>
+            <li>
+                <img src="./../imgs/my/tubiao2.png" alt="">
+                <p>好友排行</p>
+            </li>
+            <li>
+                <img src="./../imgs/my/tubiao3.png" alt="">
+                <p>我的路线</p>
+            </li>
+        </ul>
+        <ul class="my_box2_ul1">
+            <li>
+                <img src="./../imgs/my/tubiao4.png" alt="">
+                <p>我的收藏</p>
+            </li>
+            <li>
+                <img src="./../imgs/my/tubiao5.png" alt="">
+                <p>购物车</p>
+            </li>
+            <li>
+                <img src="./../imgs/my/tubiao6.png" alt="">
+                <p>我的订单</p>
+            </li>
+        </ul>
+    </section>
+
+    <!--底部固定tap切换列表-->
+    <ul class="tap-ul">
+        <li class="tap-list S">
+            <div class="big-s">
+                <img src="../imgs/chengji/biaoqian1.png" alt="">
+                <img src="../imgs/chengji/p4.png" alt="">
+            </div>
+            <img src="../imgs/chengji/s.png" alt="" class="img_">
+            <p>主页</p>
+        </li>
+        <li class="tap-list P">
+            <div class="big-s">
+                <img src="../imgs/chengji/p.png" alt="">
+                <img src="../imgs/chengji/p4.png" alt="">
+            </div>
+            <img src="../imgs/chengji/biaoqian2.png" alt="" class="img_">
+            <p>成绩</p>
+        </li>
+        <li class="tap-list O">
+            <div class="big-s">
+                <img src="../imgs/chengji/biaoqian3.png" alt="">
+                <img src="../imgs/chengji/p4.png" alt="">
+            </div>
+            <img src="../imgs/chengji/o.png" alt="" class="img_">
+            <p>想瘦圈</p>
+        </li>
+        <li class="tap-list R">
+            <div class="big-s">
+                <img src="../imgs/chengji/p.png" alt="">
+                <img src="../imgs/chengji/p4.png" alt="">
+            </div>
+            <img src="../imgs/chengji/r.png" alt="" class="img_">
+            <p>瘦友</p>
+        </li>
+        <li class="tap-list T">
+            <div class="big-s">
+                <img src="../imgs/chengji/biaoqian5.png" alt="">
+                <img src="../imgs/chengji/p4.png" alt="">
+            </div>
+            <img src="../imgs/chengji/t.png" alt="" class="img_">
+            <p>我</p>
+        </li>
+    </ul>
+</body>
+<script src="./../js/zepto.touch.js"></script>
+<script>
+    $('.tap-list').on('tap', function() {
+        $(this).find('.img_').css('opacity', 0);
+        $(this).children('div').show(1000);
+        $(this).children('div').css({
+            'transform': 'translateY(-.4rem)'
+        });
+        $(this).children('p').css('color', '#9C87ED');
+        $(this).siblings().children('div').hide();
+        $(this).siblings().children('p').css('color', '#999999');
+        $(this).siblings().find('.img_').css('opacity', 1);
+    });
+
+    $(".S").on("tap",function () {
+        window.location.href="./chengji.html";
+    });
+    $(".P").on("tap",function () {
+        window.location.href="./Chengji2.html";
+    });
+    $(".O").on("tap",function () {
+        window.location.href="./xiangshouquan.html";
+    });
+    $(".R").on("tap",function () {
+        window.location.href="./Liebiaoye.html";
+    });
+    $(".T").on("tap",function () {
+        window.location.href="./my.html";
+    });
+</script>
+
+</html>

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    overflow: hidden;
+    background: url('../imgs/register/登录页背景.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo1 {
+    overflow: hidden;
+}
+
+.logo1>img:nth-child(1) {
+    width: 1.81rem;
+    float: left;
+    margin-top: 1.97rem;
+    margin-left: 2.84rem;
+}
+
+.logo1>img:nth-child(2) {
+    width: 3.16rem;
+    float: left;
+    margin-top: .53rem;
+    margin-left: 2.18rem;
+}
+
+.input_ {
+    float: left;
+    width: 5.97rem;
+    height: 3.68rem;
+    background-color: #ffffff;
+    border-radius: .3rem;
+    margin-top: .76rem;
+    margin-left: .77rem;
+}
+
+.input_1>input {
+    letter-spacing: .02rem;
+    font-size: .3rem;
+    float: left;
+    width: 3.8rem;
+    height: .51rem;
+    margin-top: .85rem;
+    margin-left: .46rem;
+    border: none;
+    border-bottom: .01rem solid #a890fe;
+    outline-style: none;
+    text-indent: .5rem;
+    background: url('../imgs/register/图层\ 3.png') no-repeat .1rem .1rem;
+    background-size: .35rem .32rem;
+}
+
+.input_1>.span_ {
+    display: inline-block;
+    font-size: .2rem;
+    width: 1.29rem;
+    height: .51rem;
+    float: left;
+    margin-top: .85rem;
+    border-bottom: .01rem solid #a890fe;
+}
+
+.input_1>.span_>p {
+    height: .45rem;
+    width: 1.29rem;
+    text-align: center;
+    line-height: .45rem;
+    border-left: .01rem solid #cccccc;
+    color: #cccccc;
+}
+
+.input_2>input {
+    font-size: .3rem;
+    float: left;
+    width: 5.1rem;
+    height: .51rem;
+    margin-top: .55rem;
+    margin-left: .46rem;
+    border: none;
+    border-bottom: .01rem solid #a890fe;
+    outline-style: none;
+    background: url('../imgs/register/yanzhengma\ \(1\).png') no-repeat .1rem .1rem;
+    background-size: .25rem .33rem;
+    text-indent: .5rem;
+}
+
+.input_3 {
+    margin-left: 2.03rem;
+    margin-top: .32rem;
+    float: left;
+    background: url('../imgs/register/椭圆 1.png') no-repeat;
+    background-size: 1.93rem;
+    width: 1.93rem;
+    height: 1.93rem;
+}
+
+.input_3>a {
+    margin-left: .55rem;
+    line-height: 1.93rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: .36rem;
+}
+
+.foot {
+    float: left;
+    width: 5.16rem;
+    height: .5rem;
+    overflow: hidden;
+    margin-top: 2.05rem;
+    margin-left: 1.16rem;
+}
+
+.xian_1 {
+    /* margin-top: 2.05rem;
+    margin-left: 1.16rem; */
+    float: left;
+    height: .01rem;
+    width: 1.46rem;
+    border-bottom: .01rem solid #cccccc;
+    margin-top: .15rem;
+}
+
+.foot>a {
+    float: left;
+    font-size: .21rem;
+    text-align: center;
+    color: #cccccc;
+    text-decoration: none;
+    display: inline-block;
+    width: 2.24rem;
+}
+
+.xian_2 {
+    /* margin-top: 2.05rem;
+    margin-left: 1.16rem; */
+    float: right;
+    height: .01rem;
+    width: 1.46rem;
+    border-bottom: .01rem solid #cccccc;
+    margin-top: .15rem;
+}
+
+.imgs_ {
+    width: 100%;
+    float: left;
+}
+
+.imgs_>div {
+    width: 4.32rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: .45rem; */
+}
+
+.imgs_>div>img {
+    width: .48rem;
+    height: .48rem;
+}

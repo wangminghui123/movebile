@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ruler-container {
+    position: relative;
+    overflow: hidden;
+    /* width: 20rem; */
+    width: 80%;
+    margin: 0 auto;
+    height: 1rem;
+    /* 旋转 */
+}
+
+#triangle {
+    margin: 0 auto;
+    z-index: 199;
+    width: .04rem;
+    height: .5rem;
+    background: red;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#ruler ul {
+    -webkit-transform: translateX(.9rem);
+    transform: translateX(.9rem);
+    width: 100rem;
+    height: 1rem;
+    position: relative;
+}
+
+#ruler ul li {
+    width: 1.05rem;
+    height: 100%;
+    text-align: right;
+    background: url(./ruler2.png) top left no-repeat;
+    background-size: 2rem auto;
+    float: left;
+    list-style: none;
+}
+
+#ruler ul li span {
+    font-size: .34rem;
+    position: relative;
+    top: -.2rem;
+    right: -.2rem;
+    color: #ffffff;
+}

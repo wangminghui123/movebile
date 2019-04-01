@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 13.34rem;
+    font-family: te;
+    background: #252637;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: te;
+    src: url("./../font/PingFang\ Medium.ttf")
+}
+
+.men_body {
+    overflow: hidden;
+    height: 1.31rem;
+    background: #333752;
+}
+
+.men_top_box {
+    margin-top: .6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.men_top {
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    top: .6rem;
+    left: .2rem;
+    /* border: 1px red solid; */
+}
+
+.men_top2 {
+    position: absolute;
+    top: 0rem;
+    left: 6.8rem;
+}
+
+.men_top>a>img {
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    top: .05rem;
+    left: 0.03rem;
+}
+
+.men_top_p {
+    color: #fff;
+    font-size: .36rem;
+    width: 4.68rem;
+    height: .6rem;
+    background: url("./../imgs/JHY/sousuobainkuang.png") no-repeat;
+    background-size: 4.68rem .6rem;
+}
+
+.men_top_p_img {
+    width: .32rem;
+    height: .32rem;
+    position: relative;
+    top: .05rem;
+    left: .4rem;
+}
+
+.men_top_p>span {
+    margin-left: .6rem;
+    font-size: .28rem;
+    color: #cccccc;
+}
+
+
+/* ul */
+
+.jhy_ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-size: .3rem;
+    color: #fff;
+    margin: .3rem 0;
+}
+
+
+/*  */
+
+.jhy_body {
+    padding: 0 .3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.body_lef_box {
+    width: 3.3rem;
+    height: 4.35rem;
+    background: #333752;
+    border-radius: .15rem;
+    overflow: hidden;
+    margin-bottom: .3rem;
+}
+
+.img_box {
+    width: 100%;
+    height: 2.7rem;
+    overflow: hidden;
+}
+
+.img_box>img {
+    width: 3.36rem;
+    height: 2.72rem;
+}
+
+.img_l_p1 {
+    margin-top: .35rem;
+    margin-left: .1rem;
+    color: #fff;
+    font-size: .34rem;
+}
+
+.img_l_p1_span1 {
+    width: .18rem;
+    height: .18rem;
+    display: inline-block;
+    background: url("./../imgs/JHY/nv.png") no-repeat;
+    background-size: .18rem .18rem;
+}
+
+.img_l_p1_span2 {
+    width: .55rem;
+    height: .2rem;
+    display: inline-block;
+    background: url("./../imgs/JHY/paobu.png") no-repeat;
+    background-size: .55rem .2rem;
+}
+
+.img_l_p1_span3 {
+    font-size: .18rem;
+    position: relative;
+    left: -.52rem;
+    top: -.03rem;
+}
+
+.img_1_p2 {
+    margin: .19rem 0 0 .16rem;
+    font-size: 0;
+}
+
+.img_1_p2_span1 {
+    width: .13rem;
+    height: .17rem;
+    display: inline-block;
+    background: url("./../imgs/JHY/dingwei.png") no-repeat;
+    background-size: .13rem .17rem;
+}
+
+.img_1_p2_span2 {
+    color: #ccc;
+    font-size: .22rem;
+}
+
+.img_img {
+    position: relative;
+    top: -2.1rem;
+    left: .3rem;
+}
+
+.kung {
+    width: 1.1rem;
+    height: .44rem;
+    position: relative;
+    top: -1rem;
+    left: 1.1rem;
+    font-size: .26rem;
+    color: #fff;
+}
+
+
+/* right */
+
+.body_lef_box2 {
+    width: 3.3rem;
+    height: 5.83rem;
+    background: #333752;
+    border-radius: .15rem;
+    overflow: hidden;
+    margin-bottom: .3rem;
+}
+
+.img_box2 {
+    width: 100%;
+    height: 4.3rem;
+    overflow: hidden;
+}
+
+.img_box2>img {
+    width: 3.32rem;
+    height: 4.79rem;
+}

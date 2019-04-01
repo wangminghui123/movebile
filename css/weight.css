@@ -1,0 +1,102 @@
+.we_p {
+    text-align: center;
+}
+
+.we_p_sapn {
+    color: #EB6877;
+    font: .72rem;
+    font-family: we_text;
+}
+
+.we_p_span2 {
+    font-size: .48rem;
+    color: #fff;
+}
+
+@font-face {
+    font-family: we_text;
+    src: url("./../font/汉仪菱心体简.TTF")
+}
+
+body {
+    overflow: hidden;
+}
+
+
+/* 尺子 */
+
+.we_ruler {
+    margin-top: 1.5rem;
+    height: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+
+/* 渐变蒙版 */
+
+.we_ruler_mengban1 {
+    width: 2.2rem;
+    height: 1.1rem;
+    /* border: 1px red solid; */
+    background: -webkit-gradient(linear, left top, right top, from(#252637), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to right, #252637, rgba(255, 255, 255, 0));
+    position: relative;
+    top: -1.1rem;
+}
+
+.we_ruler_mengban2 {
+    width: 2.2rem;
+    height: 1.1rem;
+    /* border: 1px red solid; */
+    background: -webkit-gradient(linear, right top, left top, from(#252637f3), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to left, #252637f3, rgba(255, 255, 255, 0));
+    position: relative;
+    top: -2.2rem;
+    left: 5.5rem;
+}
+
+
+/*底部  */
+
+.we_bottom {
+    padding: 0 .45rem;
+}
+
+.we_bottom_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.we_bottom_box>a:nth-child(1) {
+    color: #999999;
+    font-size: .36rem;
+    text-decoration: none;
+}
+
+.we_bottom_box>a:nth-child(2) {
+    color: #EA8D8D;
+    font-size: .36rem;
+    text-decoration: none;
+}
+
+.we_bottom_box>a>div:nth-child(1) {
+    width: 2.95rem;
+    height: .78rem;
+    border-radius: .39rem;
+    line-height: .78rem;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+.we_bottom_box>a>div:nth-child(2) {
+    width: 2.95rem;
+    height: .78rem;
+    border-radius: .39rem;
+    line-height: .78rem;
+    text-align: center;
+    border: 1px solid #EA8D8D;
+}

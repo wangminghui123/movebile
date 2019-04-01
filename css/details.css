@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+html,
+body {
+    width: 100%;
+    font-family: te;
+    /* background: url("../imgs/chengji/成绩.jpg"); */
+    background: #252637;
+}
+
+@font-face {
+    font-family: te;
+    src: url("./../font/PingFang Medium.ttf")
+}
+
+@font-face {
+    font-family: te1;
+    src: url("./../font/FZYTK.TTF")
+}
+
+.men_body {
+    width: 100%;
+    height: 1.29rem;
+    overflow: hidden;
+    background: #333752;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.men_top_box {
+    margin-top: .55rem;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.men_top {
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    top: .55rem;
+    left: .2rem;
+}
+
+.men_top1 {
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    top: .55rem;
+    left: 6rem;
+}
+
+.men_top2 {
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    top: .55rem;
+    left: 6.6rem;
+}
+
+.men_top>a>img {
+    height: .36rem;
+    position: absolute;
+    top: .05rem;
+    left: 0.03rem;
+}
+
+.men_top1>a>img {
+    width: .35rem;
+    height: .33rem;
+    position: absolute;
+    top: .05rem;
+    left: 0.03rem;
+}
+
+.men_top2>a>img {
+    width: .36rem;
+    height: .36rem;
+    position: absolute;
+    top: .05rem;
+    left: 0.03rem;
+}
+
+.men_top_p {
+    color: #fff;
+    font-size: .36rem;
+}
+
+.swiper-container {
+    margin-top: 1.21rem;
+}
+
+.swiper-slide>img {
+    width: 6.55rem;
+    height: 4.9rem;
+    margin: .18rem -2rem;
+    border-radius: .1rem;
+}
+
+.swiper-pagination-bullet {
+    width: .17rem;
+    height: .17rem;
+    background: #999999;
+}
+
+.swiper-pagination-bullet-active {
+    width: .17rem;
+    height: .17rem;
+    background: #cccccc;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: -.3rem .16rem;
+}
+
+.money {
+    width: 100%;
+    margin-top: .1rem;
+    overflow: hidden;
+}
+
+.money>p {
+    margin-left: .27rem;
+}
+
+.money>p:nth-child(1) {
+    color: #ea8d8d;
+    font-size: .36rem;
+}
+
+.money>p:nth-child(1)>span {
+    font-size: .28rem;
+}
+
+.money>p:nth-child(1)>span:nth-child(3) {
+    color: #999999;
+}
+
+.money>p:nth-child(1)>span:nth-child(3)>mark {
+    background: none;
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.money>p:nth-child(2) {
+    color: #cccccc;
+    font-size: .32rem;
+}
+
+.money>p:nth-child(3) {
+    color: #999999;
+    font-size: .24rem;
+    width: 100%;
+}
+
+.money>p:nth-child(3)>span {
+    margin-left: .2rem;
+    font-size: .22rem;
+}
+
+.empty {
+    width: 100%;
+    height: .2rem;
+    background: #333752;
+    margin-top: .25rem;
+}
+
+.pingjia-ul {
+    list-style: none;
+}
+
+.pingjia-ul>li:nth-child(1) {
+    height: .87rem;
+    width: 6.9rem;
+    margin: 0 auto;
+    border-bottom: .01rem solid #333333;
+    line-height: .87rem;
+    position: relative;
+    font-size: .3rem;
+    color: #cccccc;
+}
+
+.pingjia-ul>li:nth-child(1)>span {
+    font-size: .22rem;
+}
+
+.pingjia-ul>li:nth-child(1)>img {
+    width: .17rem;
+    height: .32rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-.16rem);
+            transform: translateY(-.16rem);
+}
+
+.pingjia-ul>li:nth-child(2) {
+    width: 6.9rem;
+    margin: 0 auto;
+    line-height: .87rem;
+    position: relative;
+    font-size: .3rem;
+    color: #cccccc;
+}
+
+.pingjia-ul>li:nth-child(2)>img:nth-child(2) {
+    width: .17rem;
+    height: .32rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-.16rem);
+            transform: translateY(-.16rem);
+}
+
+.pingjia-ul>img {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: .98rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    overflow: hidden;
+    background: #333752;
+}
+
+.footer>img {
+    width: .51rem;
+    height: .45rem;
+    float: left;
+    margin-left: .4rem;
+    margin-top: .27rem;
+}
+
+.footer>div {
+    width: 2rem;
+    height: .7rem;
+    float: right;
+    margin-right: .3rem;
+    margin-top: .15rem;
+    text-align: center;
+    line-height: .7rem;
+    color: #ffffff;
+    font-size: .3rem;
+    background: -webkit-gradient(linear, left top, right top, from(#ea8d8d), to(#a890fe));
+    background: linear-gradient(to right, #ea8d8d, #a890fe);
+    border-radius: .7rem;
+}

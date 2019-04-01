@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #252637;
+}
+.header{
+    width: 100%;
+    height: 1.29rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-bottom: .4rem;
+}
+.header>a>img:nth-child(1){
+    width: .2rem;
+    height: .37rem;
+    transform: translate(-.4rem,.25rem);
+
+}
+.header>div{
+    font-size: .36rem;
+    color: #cccccc;
+}
+.header>img:nth-child(3){
+    width: .34rem;
+    height: .36rem;
+    transform: translateX(.4rem);
+}
+.first-main{
+    width: 100%;
+    height: 3.09rem;
+    background: url("../imgs/yuejiaolian-de/11.png") no-repeat left;
+    background-size: 100%;
+    font-size: 0;
+    position: relative;
+}
+.first-main>div{
+    width: .87rem;
+    height: .87rem;
+    border-radius: 50%;
+    background: #ffffff;
+    position: absolute;
+    right: .43rem;
+    bottom: -.435rem;
+    text-align: center;
+    z-index: 100;
+
+}
+.first-main>div>img{
+    width: .51rem;
+    height: .49rem;
+    margin-top: .19rem;
+}
+.first-main>img:first-child{
+    width: 2rem;
+    transform: translateX(2.75rem);
+}
+.first-main>p:nth-child(2){
+    font-size: .36rem;
+    color: #ffffff;
+    margin-left: 50%;
+    transform: translateX(-.35rem);
+    margin-top: .1rem;
+}
+.first-main>p:nth-child(3){
+    font-size: .24rem;
+    color: #ffffff;
+    margin-left: 50%;
+    transform: translateX(-.48rem);
+}
+.second{
+    width: 6.9rem;
+    height: 2.42rem;
+    margin: 0 auto;
+    border-radius: .1rem;
+    background: #333752;
+    overflow: hidden;
+    transform: translateY(-.03rem);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.second>p:nth-child(1){
+    width: 1.98rem;
+    height: .3rem;
+    margin-left: .17rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .22rem;
+    font-size: 0;
+}
+.second>p:nth-child(1)>img{
+    width: .3rem;
+    height: .3rem;
+}
+.second>p:nth-child(2){
+    font-size: .22rem;
+    color: #cccccc;
+    margin-left: .17rem;
+    margin-top: .2rem;
+    background: url("../imgs/yuejiaolian-de/dingwei@2x.png") no-repeat left;
+    background-size: .19rem;
+    overflow: hidden;
+    text-indent: .3rem;
+}
+.second>p:nth-child(2)>span{
+    margin-left: 2rem;
+}
+.second>p:nth-child(2)>span>mark{
+    background: none;
+    font-size: .36rem;
+    color: #ea8d8d;
+}
+.second>p:nth-child(3){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .22rem;
+    color: #666666;
+    margin-top: .2rem;
+}
+.second>p:nth-child(3)>span:nth-child(1){
+    transform: translateX(.1rem);
+}
+.second>p:nth-child(3)>span:last-child{
+    transform: translateX(-.1rem);
+}
+.second>p:nth-child(4){
+    font-size: .22rem;
+    color: #cccccc;
+    margin-left: .17rem;
+    margin-top: .1rem;
+}
+.second>p:nth-child(4)>span:nth-child(2){
+    display: inline-block;
+    width: 2.52rem;
+    height: .23rem;
+    background: #ffffff url("../imgs/yuejiaolian-de/jianbianjuxingshang@2x.png") no-repeat left;
+    background-size: 2.2rem .23rem;
+    border-radius: .23rem;
+}
+.second>p:nth-child(4)>span:nth-child(3){
+    font-size: .36rem;
+    color: #ea8d8d;
+}
+.third{
+    width: 6.9rem;
+    height: .89rem;
+    margin: .14rem auto;
+    border-radius: .1rem;
+    background: #333752;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .3rem;
+    color: #cccccc;
+}
+.third>span{
+    transform: translateX(.17rem);
+}
+.third>a>img{
+    transform: translateX(-.17rem);
+}
+.four{
+    width: 6.9rem;
+    margin: .14rem auto;
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+    background: #333752;
+    overflow: hidden;
+}
+.four>div{
+    overflow: hidden;
+}
+.four>div:first-child{
+    width: 6.6rem;
+    height: .88rem;
+    margin: 0 auto;
+    border-bottom: .01rem solid #252637;
+    font-size: .3rem;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.four>div:first-child>span{
+    font-size: .22rem;
+    color: #999999;
+    transform: translateX(-2.2rem);
+}
+.four>ul{
+    width: 100%;
+    list-style: none;
+}
+.four>ul>li{
+    width: 6.6rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .29rem;
+    padding-bottom: .15rem;
+}
+.four>ul>li>img{
+    width: .78rem;
+    height: .78rem;
+}
+.four>ul>li>div>p:first-child{
+    width: 5.5rem;
+    font-size: .28rem;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+.four>ul>li>div>p:first-child>span:nth-child(2){
+    width: 1.48rem;
+    height: .22rem;
+    margin-left: .17rem;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 0;
+    transform: translate(-1.05rem,.07rem);
+}
+.four>ul>li>div>p:first-child>span:nth-child(2)>img{
+    width: .22rem;
+    height: .22rem;
+}
+.four>ul>li>div>p:first-child>span:nth-child(3){
+    font-size: .22rem;
+    color: #666666;
+}
+.four>ul>li>div>p:last-child{
+    width: 4.9rem;
+    font-size: .22rem;
+    color: #999999;
+}
+.but{
+    background: url("../imgs/yuejiaolian-de/dibuanniu@2x.png") no-repeat;
+    background-size: 3.2rem .87rem;
+    width: 3.2rem;
+    height: .87rem;
+    text-align: center;
+    line-height: .87rem;
+    color: #eeeeee;
+    font-size: .36rem;
+    position: fixed;
+    bottom: .75rem;
+    left: 50%;
+    transform: translateX(-1.6rem);
+}

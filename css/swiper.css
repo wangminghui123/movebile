@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.swiper-slide .img1{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img2{
+    width: 4.01rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    opacity: 0;
+    z-index: 90;
+}
+.img3{
+     width: 7.13rem;
+     position: absolute;
+    bottom: 0rem;
+     z-index: 80;
+     right: 0rem;
+     opacity: 0;
+ }
+.img4{
+    width: 4.89rem;
+    position: absolute;
+    bottom: 0rem;
+    z-index: 50;
+    right: 0rem;
+    opacity: 0;
+}
+.img5{
+    width: 4.23rem;
+    position: absolute;
+    bottom: 0rem;
+    z-index: 60;
+    right: 0rem;
+    opacity: 0;
+}
+.img6{
+    width: 2.18rem;
+    position: absolute;
+    bottom: .3rem;
+    z-index: 70;
+    right: 0rem;
+    opacity: 0;
+
+}
+.swiper-pagination-bullet-active{
+    width: .13rem;
+    height: .13rem;
+    background: white;
+}
+.swiper-pagination-bullet{
+     width: .13rem;
+     height: .13rem;
+     background: #B5B4B4;
+}
+.div1{
+    position: absolute;
+    bottom: 1.19rem;
+    left: .37rem;
+    color: white;
+    font-size: .4rem;
+    z-index: 100;
+}
+@font-face {
+    font-family: 'MyFont';   /*字体名称*/
+    src: url('../font/汉仪菱心体简.TTF');       /*字体源文件*/
+}
+.div1>p:nth-child(1){
+    font-family: MyFont;
+    font-size: .6rem;
+    margin-bottom: .2rem;
+}
+.div1>p:nth-child(2){
+    font-family: MyFont;
+    font-size: .9rem;
+    margin-bottom: .2rem;
+}
+.div1>p:nth-child(3){
+    font-family: Adobe Heiti Std R;
+    font-size: .3rem;
+    margin-bottom: .1rem;
+}
+.div1>p:nth-child(4){
+    font-family: Adobe Heiti Std R;
+    font-size: .3rem;
+}
+
+@keyframes aa {
+    0%{
+        transform: translateX(200rem) translateY(-200rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+.aa{
+    -webkit-animation: aa 0.7s forwards;
+    animation: aa .7s forwards;
+}
+@keyframes bb {
+    0%{
+        transform: translateX(200rem) translateY(-200rem);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+.bb{
+    -webkit-animation: bb 0.7s forwards;
+
+}
+
+@keyframes cc {
+    0%{
+        transform: translateX(200rem) translateY(200rem);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+.cc{
+    -webkit-animation: cc 0.7s forwards;
+    animation: cc .7s forwards;
+}
+
+.close{
+    color: white;
+    font-size: .3rem;
+    font-family: PingFang-SC-Medium;
+    position: absolute;
+    top: .79rem;
+    right: .35rem;
+}

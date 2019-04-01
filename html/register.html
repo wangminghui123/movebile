@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="banner">
+        <div class="logo1">
+            <img src="../imgs/register/享瘦.png" alt="">
+            <img src="../imgs/register/font_banner1.png" alt="">
+        </div>
+        <form class="input_">
+            <div class="input_1">
+                <i class="userHead"></i>
+                <input type="text" maxlength="11" placeholder="请输入手机号" class="required1" pattern="[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$" />
+                <span class="span_">
+                    <p id='p_'>
+                        获取验证码
+                    </p>
+                </span>
+            </div>
+            <div class="input_2">
+                <input type="text" class="required2" placeholder="请输入验证码">
+            </div>
+            <div class="input_3">
+                <a href="menORwomen.html" class="a_">登&nbsp;录</a>
+            </div>
+        </form>
+        <div class="foot">
+            <div class="xian_1"></div>
+            <a href="#">其他方式登录</a>
+            <div class="xian_2"></div>
+        </div>
+        <div class="imgs_">
+            <div>
+                <img src="../imgs/register/图层 4.png" alt="">
+                <img src="../imgs/register/weixin.png" alt="">
+                <img src="../imgs/register/图层 5.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zepto.touch.js"></script>
+    <script src="../js/rem.js"></script>
+    <script>
+        var timer = null;
+        var flag = true;
+        $('#p_').on('tap', function() {
+            if (!flag) {
+                return false;
+            };
+            flag = false;
+            var num = 60;
+            timer = setInterval(function() {
+                num--;
+                $('#p_').text('(' + num + '秒) 重发');
+                $('#p_').css({
+                    'background':'linear-gradient(to right,#ea8d8d,#a890fe)',
+                    'border-radius':'.45rem',
+                    'color':'#ffffff'
+                });
+                if (num < 1) {
+                    $('#p_').text('重新获取');
+                    $('#p_').css({
+                        'background':'linear-gradient(to right,#ea8d8d,#a890fe)',
+                        'border-radius':'.45rem',
+                        'color':'#ffffff'
+                    });
+                    flag = true;
+                    clearInterval(timer);
+                };
+            }, 1000);
+        });
+        // var reg = /[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$/;
+        // var t = $('.required1').value;
+        // $('.a_').on('tap',function () {
+        //     if(reg.test(t)){
+        //         alert(1)
+        //     }
+        // })
+
+    </script>
+</body>
+
+</html>

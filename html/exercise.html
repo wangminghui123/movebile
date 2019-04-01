@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>今日里程 </title>
+    <link rel="stylesheet" href="./../css/exercise.css">
+    <script src="./../js/zepto.min.js"></script>
+    <script src="./../js/rem.js"></script>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <section class="men_body">
+        <div class="men_top_box">
+            <div class="men_top">
+                <a href="./Chengji2.html">
+                    <img src="./../imgs/menORwomen/fanhuijian.png" alt="">
+                </a>
+            </div>
+            <div class="men_top2">
+                <a href="">
+                    <img src="./../imgs/exercise/fenxiang.png" alt="">
+                </a>
+            </div>
+            <p class="men_top_p">今日里程</p>
+        </div>
+    </section>
+    <!--  -->
+
+    <!-- 水纹 进度条 -->
+    <section class="wave">
+        <!-- 水纹 -->
+        <canvas id="canvas"></canvas>
+        <!-- 圆形进度条 -->
+        <div class="jindutiao"></div>
+        <ul class="progress">
+            <li>
+                <svg viewBox="-10 -10 220 220">
+                    <g fill="none" stroke-width="2" transform="translate(100,100)">
+                    <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                    <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                    <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                    <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                    <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                    <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                    </g>
+                    </svg>
+                <svg viewBox="-10 -10 220 220">
+                    <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="239"></path>
+                    </svg>
+            </li>
+        </ul>
+        <svg width="0" height="0">
+                <defs>
+                <linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+                    <stop stop-color="#618099"/>
+                    <stop offset="100%" stop-color="#8e6677"/>
+                </linearGradient>
+                <linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+                    <stop stop-color="#8e6677"/>
+                    <stop offset="100%" stop-color="#9b5e67"/>
+                </linearGradient>
+                <linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+                    <stop stop-color="#9b5e67"/>
+                    <stop offset="100%" stop-color="#9c787a"/>
+                </linearGradient>
+                <linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+                    <stop stop-color="#9c787a"/>
+                    <stop offset="100%" stop-color="#817a94"/>
+                </linearGradient>
+                 <linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+                    <stop stop-color="#817a94"/>
+                    <stop offset="100%" stop-color="#498a98"/>
+                </linearGradient> 
+                 <linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+                    <stop stop-color="#498a98"/>
+                    <stop offset="100%" stop-color="#618099"/>
+                </linearGradient> 
+                </defs>
+                </svg>
+        </div>
+        <!-- 水纹中的文字 -->
+        <div class="shui_text_box">
+            <p class="shui_text_box_p1">今天步数</p>
+            <p class="shui_text_box_p2">4260</p>
+            <p class="shui_text_box_p3">目标：<span>10000</span></p>
+        </div>
+    </section>
+
+    <!--下面的内容  -->
+    <div class="ex_bottom">
+        <ul class="ex_bottom_ul_1">
+            <li>
+                <p><span class="ex_num_p1">54</span><span class="ex_bottom_ul_1_span">K</span></p>
+                <p>能量</p>
+            </li>
+            <li>
+                <p><span class="ex_num_p2">1.32</span></p>
+                <p>用时</p>
+            </li>
+            <li>
+                <p><span class="ex_num_p3">46</span></p>
+                <p>公里</p>
+            </li>
+        </ul>
+    </div>
+    <ul class="ex_bottom_ul_2">
+        <li>
+            <img src="./../imgs/exercise/jiangbei.png" alt="">
+            <p class="p1">奖杯</p>
+            <p class="p2 num_p2a">5</p>
+        </li>
+        <li>
+            <img src="./../imgs/exercise/xingzhang.png" alt="">
+            <p class="p1">胸章</p>
+            <p class="p2 num_p2b">10</p>
+        </li>
+        <li>
+            <img src="./../imgs/exercise/paihang.png" alt="">
+            <p class="p1">排行</p>
+            <p class="p2 num_p2c">2</p>
+        </li>
+    </ul>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.3.0/simplex-noise.min.js"></script>
+    <script src="./../js/exercise.js"></script>
+    <script src="./../js/zepto.min.js"></script>
+    <script>
+        $(function() {
+            function fn(cla) {
+                var num1 = $(cla).text() - 0;
+                var num = 0;
+                var timer;
+                timer = setInterval(function() {
+                    num += 2;
+                    $(cla).text(num);
+                    if (num >= num1) {
+                        clearInterval(timer)
+                    }
+                }, 1);
+            }
+            fn(".shui_text_box_p2");
+
+            function fn2(cla) {
+                var num1 = $(cla).text() - 0;
+                var num = 0;
+                var timer;
+                timer = setInterval(function() {
+                    num += 1;
+                    $(cla).text(num);
+                    if (num >= num1) {
+                        clearInterval(timer)
+                    }
+                }, 80);
+            }
+            fn2(".ex_num_p1");
+            fn2(".ex_num_p3");
+            fn2(".num_p2a");
+            fn2(".num_p2b");
+            fn2(".num_p2c");
+
+
+            function fn3(cla) {
+                var num1 = $(cla).text() - 0;
+                var num = 0;
+                var timer;
+                timer = setInterval(function() {
+                    num += 0.01;
+                    $(cla).text(num.toFixed(2));
+                    if (num >= num1) {
+                        clearInterval(timer)
+                    }
+                }, 20);
+            };
+            fn3(".ex_num_p2")
+        })
+    </script>
+</body>
+
+</html>

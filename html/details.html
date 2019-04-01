@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zepto.touch.js"></script>
+    <script src="../js/swiper-4.1.6.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper-4.1.6.min.css">
+    <link rel="stylesheet" href="../css/details.css">
+    <script src="../js/rem.js"></script>
+</head>
+<body>
+<section class="men_body">
+    <div class="men_top_box">
+        <div class="men_top">
+            <a href="Shangpye.html">
+                <img src="./../imgs/details/fanhui.png" alt="">
+            </a>
+        </div>
+        <div class="men_top1">
+            <a href="">
+                <img src="./../imgs/details/shoucang.png" alt="">
+            </a>
+        </div>
+        <div class="men_top2">
+            <a href="">
+                <img src="./../imgs/details/fenxiang.png" alt="">
+            </a>
+        </div>
+        <p class="men_top_p">详情页</p>
+    </div>
+</section>
+
+<div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../imgs/details/图片1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../imgs/details/图片2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../imgs/details/图片3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../imgs/details/图片4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../imgs/details/图片2.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="money">
+    <p>
+        <span>￥</span>49.00 <span>起+200享瘦币</span>  <span>现金价：<mark>69.00元</mark></span>
+    </p>
+    <p>运动澎湃耳机头戴式 通用耳麦</p>
+    <p>不含运费 <span>月销 19000</span></p>
+</div>
+<div class="empty">
+
+</div>
+<ul class="pingjia-ul">
+    <li>
+        全部评价<span>(27447)</span>
+        <img src="../imgs/details/fanhui2.png" alt="">
+    </li>
+    <li>
+        宝贝详情介绍
+        <img src="../imgs/details/fanhui2.png" alt="">
+    </li>
+    <img src="../imgs/details/图片4.jpg" alt="">
+</ul>
+
+<div class="footer">
+    <img src="../imgs/details/xi'ai.png" alt="">
+    <div>加入订单</div>
+</div>
+</body>
+</html>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        autoplay:{
+            delay:1000,
+        },//可选选项，自动滑动
+        loop: true, // 循环模式选项
+        effect : 'coverflow',
+        slidesPerView: 3,
+        centeredSlides: true,
+        coverflowEffect: {
+            rotate: 45,
+            stretch: 0,
+            depth: 300,
+            modifier: 1,
+            slideShadows : false
+        },
+
+
+
+    })
+</script>

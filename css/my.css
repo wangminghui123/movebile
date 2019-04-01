@@ -1,0 +1,233 @@
+.tap-ul {
+    width: 100%;
+    height: .98rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    background: #333752;
+    position: fixed;
+    bottom: 0;
+}
+
+.tap-list {
+    width: 20%;
+    height: .98rem;
+    text-align: center;
+    color: #999999;
+    font-size: .22rem;
+}
+
+.tap-list>img {
+    margin-top: .08rem;
+}
+
+.tap-list:nth-child(1)>img {
+    width: .33rem;
+}
+
+.tap-list:nth-child(2)>img {
+    width: .32rem;
+}
+
+.tap-list:nth-child(3)>img {
+    width: .32rem;
+}
+
+.tap-list:nth-child(4)>img {
+    width: .29rem;
+}
+
+.tap-list:nth-child(5)>img {
+    width: .37rem;
+}
+
+.big-s {
+    width: .85rem;
+    height: .99rem;
+    position: absolute;
+    top: 0rem;
+    z-index: 100;
+    display: none;
+}
+
+.big-s>img:nth-child(1) {
+    width: .5rem;
+    position: absolute;
+    top: .2rem;
+    left: .5rem;
+    z-index: 5;
+}
+
+.big-s>img:nth-child(2) {
+    width: .85rem;
+    position: absolute;
+    top: 0;
+    left: .33rem;
+    z-index: 1;
+}
+
+html {
+    font-size: 100px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 身体 */
+
+.my_box1 {
+    position: relative;
+}
+
+.my_body {
+    width: 6.9rem;
+    height: 4rem;
+    margin: 0 auto;
+    background: url("./../imgs/my/juxing1.png") no-repeat;
+    background-size: 6.9rem 4rem;
+    margin-top: .68rem;
+    overflow: hidden;
+}
+
+.my_top_p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0;
+}
+
+@font-face {
+    font-family: sc;
+    src: url("./../font/PingFang\ Medium.ttf")
+}
+
+.my_top_p>span:nth-child(1) {
+    font-size: .49rem;
+    font-family: sc;
+    color: #eee;
+    padding-left: .43rem;
+}
+
+.my_top_p>span:nth-child(2) {
+    display: inline-block;
+    width: .32rem;
+    height: .32rem;
+    background: url("./../imgs/my/nan.png") no-repeat;
+    background-size: .3rem .3rem;
+    margin: 0 .1rem;
+}
+
+.my_top_p>span:nth-child(3) {
+    display: inline-block;
+    width: .32rem;
+    height: .25rem;
+    background: url("./../imgs/my/xiugai.png") no-repeat;
+    background-size: .3rem .25rem;
+}
+
+.my_ul1 {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: .2rem;
+    color: #aeafb3;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: .23rem;
+}
+
+.my_ul1>li>span:nth-child(1) {
+    margin-left: .15rem;
+}
+
+.my_ul1>li>span:nth-child(3) {
+    margin: 0 .25rem;
+}
+
+.my_ul2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    list-style: none;
+    color: #eeeeee;
+    font-size: .49rem;
+    font-family: num;
+    margin-top: .42rem;
+}
+
+.my_ul3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    list-style: none;
+    color: #aeafb3;
+    font-size: .22rem;
+    font-family: sc;
+    margin-top: .22rem;
+}
+
+.my_top_img1 {
+    width: 1.34rem;
+    height: 1.34rem;
+    position: absolute;
+    top: -.52rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.my_top_img2 {
+    width: .31rem;
+    height: .31rem;
+    position: absolute;
+    top: .48rem;
+    left: 4.11rem;
+}
+
+
+/* my_box2 */
+
+.my_box2 {
+    width: 6.9rem;
+    height: 4rem;
+    margin: 0 auto;
+    background: url("./../imgs/my/juxing1.png") no-repeat;
+    background-size: 6.9rem 4rem;
+    margin-top: .4rem;
+    overflow: hidden;
+}
+
+.my_box2_ul1 {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: .5rem;
+}
+
+.my_box2_ul1>li {
+    font-size: 0;
+}
+
+.my_box2_ul1>li>img {
+    width: .86rem;
+    height: .86rem;
+}
+
+.my_box2_ul1>li>p {
+    font-size: .22rem;
+    text-align: center;
+    color: #aeafb3;
+    margin-top: .22rem;
+}

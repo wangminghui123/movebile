@@ -1,0 +1,334 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 100px;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: 13.34rem;
+        font-family: te;
+        background: #252637;
+    }
+    
+    @font-face {
+        font-family: te;
+        src: url("./../font/PingFang\ Medium.ttf")
+    }
+    
+    .men_body {
+        width: 100%;
+        height: 1.29rem;
+        overflow: hidden;
+        background: #333752;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    
+    .men_top_box {
+        margin-top: .55rem;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+    .men_top {
+        width: .48rem;
+        height: .48rem;
+        position: absolute;
+        top: .55rem;
+        left: .2rem;
+        /* border: 1px red solid; */
+    }
+    
+    .men_top2 {
+        width: .48rem;
+        height: .48rem;
+        position: absolute;
+        top: .55rem;
+        left: 6.6rem;
+        /* border: 1px red solid; */
+    }
+    
+    .men_top>a>img {
+        width: .48rem;
+        height: .48rem;
+        position: absolute;
+        top: .05rem;
+        left: 0.03rem;
+    }
+    
+    .men_top2>a>img {
+        width: .48rem;
+        height: .48rem;
+        position: absolute;
+        top: .05rem;
+        left: 0.03rem;
+    }
+    
+    .men_top_p {
+        color: #fff;
+        font-size: .36rem;
+    }
+    
+    .seacarh {
+        margin-top: 1.21rem;
+        font-size: 0;
+        overflow: hidden;
+        height: .87rem;
+        border-bottom: .01rem solid #333752;
+    }
+    
+    .fenlei {
+        overflow: hidden;
+    }
+    
+    .fenlei>img {
+        width: .2rem;
+        float: left;
+        margin-top: .38rem;
+        margin-left: .54rem;
+    }
+    
+    .fenlei_1>a {
+        float: left;
+        font-size: .23rem;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: .87rem;
+        margin-left: .09rem;
+    }
+    
+    .input_1 {
+        float: left;
+        width: 4.66rem;
+        height: .58rem;
+        margin-top: .14rem;
+        margin-left: .12rem;
+        border-radius: .3rem;
+        background-color: #252637;
+        border: .01rem solid #51515f;
+        background: url('../imgs/yueguan/sousuo@2x.png') no-repeat .1rem .15rem;
+        background-size: .3rem;
+        text-indent: .5rem;
+        font-size: .28rem;
+        outline-style: none;
+        color: #ffffff;
+    }
+    
+    .fenlei_2>img {
+        width: .21rem;
+        float: left;
+        margin-top: .32rem;
+        margin-left: .3rem;
+    }
+    
+    .fenlei_3>a {
+        float: left;
+        font-size: .23rem;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: .87rem;
+        margin-left: .09rem;
+    }
+    
+    .renzheng_box {
+        margin-top: .14rem;
+        margin-left: .32rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .renzheng {
+        width: 6.9rem;
+        height: 3rem;
+        background: url('../imgs/yueguan/tupian4.jpg') no-repeat right center;
+        background-size: 6.4rem 4rem;
+        border-radius: .2rem;
+    }
+    
+    .renzheng_1 {
+        width: 6.9rem;
+        height: 3rem;
+        background: url('../imgs/yueguan/tupian1.jpg') no-repeat right center;
+        background-size: 6.4rem 4rem;
+        border-radius: .2rem;
+    }
+    
+    .mengban {
+        width: 6.9rem;
+        height: 3rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .renzheng_ul_box {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .renzheng_ul {
+        overflow: hidden;
+        list-style: none;
+    }
+    
+    .renzheng_ul>li>a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .renzheng_ul>li {
+        float: left;
+    }
+    
+    .renzheng_ul>li:nth-child(1) {
+        font-size: .28rem;
+        margin-top: .18rem;
+        margin-left: .26rem;
+    }
+    
+    .renzheng_ul>li:nth-child(2) {
+        margin-top: .19rem;
+        margin-left: .34rem;
+        width: .89rem;
+        height: .31rem;
+        line-height: .31rem;
+        font-size: .19rem;
+        text-align: center;
+        background: url('../imgs/yueguan/jianbianyuanjiaojuxing@2x.png');
+        background-size: 100% 100%;
+    }
+    
+    .renzheng_ul>li:nth-child(3) {
+        margin-top: .19rem;
+        margin-left: .16rem;
+        width: .89rem;
+        height: .31rem;
+        line-height: .31rem;
+        font-size: .19rem;
+        text-align: center;
+        background: url('../imgs/yueguan/jianbianyuanjiaojuxing@2x.png');
+        background-size: 100% 100%;
+    }
+    
+    .renzheng_ul>li:nth-child(4) {
+        margin-top: .19rem;
+        margin-left: .16rem;
+        width: .89rem;
+        height: .31rem;
+        line-height: .31rem;
+        font-size: .19rem;
+        text-align: center;
+        background: url('../imgs/yueguan/jianbianyuanjiaojuxing@2x.png');
+        background-size: 100% 100%;
+    }
+    
+    .xing {
+        width: 1.61rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: .23rem;
+        margin-left: .26rem;
+    }
+    
+    .xing>img {
+        width: .24rem;
+        height: .24rem;
+    }
+    
+    .renzheng_ul_1 {
+        float: left;
+        list-style: none;
+        margin-left: .26rem;
+        /* margin-top: .22rem; */
+        color: #ffffff;
+        font-size: .2rem;
+    }
+    
+    .renzheng_ul_1>li {
+        margin-top: .15rem;
+    }
+    
+    .renzheng_ul_1>li:nth-child(2)>span {
+        font-size: .22rem;
+    }
+    
+    .jianbian {
+        float: left;
+        width: 2rem;
+        height: .55rem;
+        background: url('../imgs/yueguan/jianbainjuxingkuang@2x.png') no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        left: -.7rem;
+    }
+    .jianbian>a{
+        text-decoration: none;
+    }
+    .jianbian>a>p {
+        text-align: center;
+        line-height: .55rem;
+        font-size: .24rem;
+        background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ea8d8d), to(#a890fe));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+    
+    .jianbian_1 {
+        float: left;
+        width: 2rem;
+        height: .55rem;
+        background: url('../imgs/yueguan/huisejuxingkuang@2x.png') no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        left: -.7rem;
+    }
+    
+    .jianbian_1>p {
+        text-align: center;
+        line-height: .55rem;
+        font-size: .24rem;
+        /* font-weight: bold; */
+        color: #cccccc;
+    }
+    
+    .renzheng_2 {
+        width: 6.9rem;
+        height: 3rem;
+        background: url('../imgs/yueguan/tupian3.jpg') no-repeat right center;
+        background-size: 6.4rem 4rem;
+        border-radius: .2rem;
+    }
+    
+    .renzheng_3 {
+        width: 6.9rem;
+        height: 3rem;
+        background: url('../imgs/yueguan/tupian2.jpg') no-repeat right center;
+        background-size: 6.4rem 4rem;
+        border-radius: .2rem;
+    }
+    
+    .renzheng_box_1 {
+        margin-bottom: .4rem;
+        margin-top: .14rem;
+        margin-left: .32rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .dingwei {
+        width: .19rem;
+        height: .24rem;
+    }
